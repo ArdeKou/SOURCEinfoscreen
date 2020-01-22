@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    background: grey
+}
+.header {
+    background: rgb(104, 104, 104);
+    text-align: center;
+    margin: 0px;
+}
+
+.baseContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    grid-gap: 0.5em;
+    justify-content: center;
+    padding-top:0.5em;
+    align-content: start;
+}
+
+
+.busContainer {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 1f 5f 5f; 
+}
+
+.calendar {
+
+}
+.newsContainer {
+    background: purple;
+    padding: 2em
+}
+.weatherContainer {
+    background: greenyellow;
+    padding: 1em;
+}
+.eventsContainer {
+    
+}
+.news {
+    display: grid;
+}
